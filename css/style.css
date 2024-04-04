@@ -1,0 +1,375 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/**--------------------------------------HEADER--------------------------------------------------*/
+
+header {
+    background-color:#290505c7;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+header img{
+    width: 40px;
+    height: 40px;
+}
+header h1{
+    color: white;
+    
+}
+
+
+
+
+
+
+.navbar {
+    padding: 0
+}
+.nav-link {
+    color: rgba(255, 255, 255, 0.500);
+}
+
+.active {
+    color: rgba(255, 255, 255, 0.856) !important;
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: rgba(255, 255, 255, 0.856);
+}
+
+
+
+
+
+
+
+
+
+
+
+/**---------------------------------------MAIN---------------------------------------------------*/
+
+.bienvenida {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 399;
+    font-style: normal;
+    
+    background-image: url(../img/bannercafe.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bienvenida h2{
+    color: white;
+    text-align: left;
+    font-size: 60px;
+    padding-left:  10%;
+    padding-top: 5%;
+}
+.bienvenida h3{
+    color: white;
+    text-align: left;
+    
+    padding: 1% 5% 2% 22%;
+}
+
+
+.bienvenida div {
+    width: 50%;
+    align-content: initial;
+}
+.bienvenida div p {
+    color: white;
+    padding-left: 8%;
+    font-size: 100%;
+    
+    
+}
+
+
+
+
+.productosd a{
+    text-decoration: none ;
+}
+
+
+.productosd h2 {
+text-align: center;
+color: white;
+background-color: black;
+}
+
+.productosd .cards {
+    
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+    gap: 16px;
+    
+}
+
+.productosd div img{
+    width: 175px;
+    height: 175px;
+    
+}
+
+.productosd div a img{
+
+    width: 15px;
+    height: 15px;
+    
+}
+
+.productosd {
+    background-image: url(../img/productosdbanner.png);
+    padding: 0px 0px 16px 0px;
+}
+
+/* .card {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 5px #f5cdc0;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    border-style: solid;
+} */
+
+.boton {
+    color: rgb(202, 190, 20);
+    text-decoration: none;
+    background-color: black;
+}
+
+
+
+
+
+
+
+.sucursales {
+background-color: #290505af;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.sucursales div img{
+    height: 600px;
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fixed img {
+    width: 50px;
+    position: fixed; 
+    bottom: 60px;
+    right: 30px;
+}
+
+/**---------------------------------------FOOTER--------------------------------------------------*/
+footer {
+    background-image: url(../img/bannerfooter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer a{
+    text-decoration: none;
+
+}
+footer h2 {
+    color: beige;
+}
+
+footer img{
+    float: right;
+    width: 55px;
+    height: 55px;
+    padding: 15px;
+    
+}
+
+
+/**--------------------------------Nosotros----------------------------**/
+
+.nosotros {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 399;
+    font-style: normal;
+    background-color: #f5cdc0;
+}
+
+.nosotros h2{
+
+    text-align: center;
+    font-size: 50px;
+}
+
+.nosotros div {
+    display: flex;
+}
+
+.nosotros div p {
+    padding: 5%;
+
+}
+.nosotros div img{
+    width: 600px;
+}
+
+.nuestroscafes {
+    background-color: #f5cdc0 ;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 399;
+    font-style: normal;
+
+}
+.nuestroscafes h2{
+    text-align: center;
+    
+}
+
+.grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(5, 470px);
+    grid-template-rows: repeat(5, 400px);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 3 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 4; }
+    .div3 { grid-area: 2 / 2 / 3 / 3; }
+    .div4 { grid-area: 3 / 1 / 4 / 3; }
+    .div5 { grid-area: 2 / 3 / 4 / 4; }
+
+.grid-galeria div img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.grid-galeria{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 399;
+    font-style: normal;
+    background-color: #f5cdc0;
+}
+
+.grid-galeria h3{
+    color: white;
+}
+
+/**--------------------------------Contacto---------------------**/
+
+.contacto {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 399;
+    font-style: normal;
+    background-color: #f5cdc0; 
+}
+    
+
+
+
+
+
+
+/**-----------------------------------Productos--------------------------------**/
+.granos {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 399;
+    font-style: normal;
+    background-color: #f5cdc0; 
+}
+
+.granos .cards {
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.granos h2{
+    text-align: center;
+}
+
+.granos div img {
+    width: 175px;
+    height: 175px;
+}
+.granos div a img{
+
+    width: 15px;
+    height: 15px;
+}
+
+
+
+
+/**------------------------------------Servicios----------------------**/
+.reservas {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 399;
+    font-style: normal;
+    background-color: #f5cdc0; 
+}
+
+.reservas div{
+    display: flex;
+}
+
+.catering {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 399;
+    font-style: normal;
+    background-color: #f5cdc0; 
+}
