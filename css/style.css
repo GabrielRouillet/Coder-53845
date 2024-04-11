@@ -373,3 +373,14 @@ footer img{
     font-style: normal;
     background-color: #f5cdc0; 
 }
+
+/*!-------------------------MEDIA QUERY--------------------*/
+
+@media (max-width:650px){
+    .bienvenida div p {
+        font-size: 70%
+    }
+    .bienvenida {
+        height: 300pc ;
+    }
+}
