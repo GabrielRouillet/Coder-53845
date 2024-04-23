@@ -159,6 +159,13 @@ justify-content: center;
     border-style: solid;
 } */
 
+.background-color {
+    color: #ad9393;
+}
+
+
+
+
 .boton {
     color: rgb(202, 190, 20);
     text-decoration: none;
