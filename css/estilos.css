@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+header {
+  background-color: #290505c7;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  flex-wrap: wrap;
+  z-index: 1; }
+header img {
+  width: 40px;
+  height: 40px; }
+header h1 {
+  color: white; }
+
+.bienvenida {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 399;
+  font-style: normal;
+  background-image: url(../img/bannercafe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  display: flex;
+  flex-direction: column; }
+
+.bienvenida h2 {
+  color: white;
+  text-align: left;
+  font-size: 60px;
+  padding-left: 10%;
+  padding-top: 5%; }
+
+.bienvenida h3 {
+  color: white;
+  text-align: left;
+  padding: 1% 5% 2% 22%; }
+
+.bienvenida div {
+  width: 50%;
+  align-content: initial; }
+
+.bienvenida div p {
+  color: white;
+  padding-left: 8%;
+  font-size: 100%; }

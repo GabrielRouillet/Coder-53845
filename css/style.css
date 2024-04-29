@@ -124,6 +124,8 @@ justify-content: center;
     gap: 16px;
     
 }
+.card {
+    --bs-card-bg: #f5cdc0d9 !important ;}
 
 .productosd div img{
     width: 175px;
