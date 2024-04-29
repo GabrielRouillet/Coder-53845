@@ -183,8 +183,51 @@ footer {
     display: flex; }
 
 /*!-------------------------MEDIA QUERY--------------------*/
-@media (max-width: 650px) {
-  .bienvenida {
-    height: 300px; }
-  .bienvenida div p {
-    font-size: 70%; } }
+  @media (max-width: 768px) {
+    /* Ajustes para pantallas más pequeñas que tablets */
+    .bienvenida h2 {
+      font-size: 40px;
+      padding-left: 5%;
+      padding-top: 3%;
+    }
+    .bienvenida h3 {
+      padding: 1% 5% 2% 10%;
+    }
+    .bienvenida div p {
+      padding-left: 5%;
+      font-size: 80%;
+    }
+    .productosd div img {
+      width: 150px;
+      height: 150px;
+    }
+    .productosd div a img {
+      width: 10px;
+      height: 10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* Ajustes para pantallas más pequeñas que teléfonos */
+    .bienvenida h2 {
+      font-size: 30px;
+      padding-left: 3%;
+      padding-top: 2%;
+    }
+    .bienvenida h3 {
+      padding: 1% 5% 2% 5%;
+    }
+    .bienvenida div p {
+      padding-left: 3%;
+      font-size: 70%;
+    }
+    .productosd div img {
+      width: 125px;
+      height: 125px;
+    }
+    .productosd div a img {
+      width: 8px;
+      height: 8px;
+    }
+  }
+  
