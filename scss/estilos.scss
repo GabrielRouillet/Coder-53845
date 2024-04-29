@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/**--------------------------------------HEADER--------------------------------------------------*/
+
 header {
     background-color: #290505c7;
     position: sticky;
@@ -13,56 +15,261 @@ header {
     padding: 5px;
     flex-wrap: wrap;
     z-index: 1;
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+
+    h1 {
+        color: white;
+    }
 }
 
-header img {
-    width: 40px;
-    height: 40px;
+.navbar {
+    padding: 0;
+
+    &-nav {
+        --bs-nav-link-hover-color: rgba(255, 255, 255, 0.856);
+    }
+
+    &-link {
+        color: rgba(255, 255, 255, 0.500);
+
+        &.active {
+            color: rgba(255, 255, 255, 0.856) !important;
+        }
+    }
 }
 
-header h1 {
-    color: white;
-
-}
+/**---------------------------------------MAIN---------------------------------------------------*/
 
 .bienvenida {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 399;
     font-style: normal;
-    
     background-image: url(../img/bannercafe.jpg);
-    background-size: cover ;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
     display: flex;
     flex-direction: column;
-    
+
+    h2 {
+        color: white;
+        text-align: left;
+        font-size: 60px;
+        padding-left: 10%;
+        padding-top: 5%;
+    }
+
+    h3 {
+        color: white;
+        text-align: left;
+        padding: 1% 5% 2% 22%;
+    }
+
+    div {
+        width: 50%;
+        align-content: initial;
+
+        p {
+            color: white;
+            padding-left: 8%;
+            font-size: 100%;
+        }
+    }
 }
 
-.bienvenida h2{
-    color: white;
-    text-align: left;
-    font-size: 60px;
-    padding-left:  10%;
-    padding-top: 5%;
-}
-.bienvenida h3{
-    color: white;
-    text-align: left;
-    
-    padding: 1% 5% 2% 22%;
+.productosd {
+    background-image: url(../img/productosdbanner.png);
+    padding: 0px 0px 16px 0px;
+
+    & a {
+        text-decoration: none;
+    }
+
+    & h2 {
+        text-align: center;
+        color: white;
+        background-color: black;
+    }
+
+    & .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    & div img {
+        width: 175px;
+        height: 175px;
+    }
+
+    & div a img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .card {
+        --bs-card-bg: #f5cdc0d9 !important;
+    }
 }
 
+.sucursales {
+    background-color: #290505af;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
-.bienvenida div {
-    width: 50%;
-    align-content: initial;
+    div img {
+        height: 600px;
+        width: 500px;
+    }
 }
-.bienvenida div p {
-    color: white;
-    padding-left: 8%;
-    font-size: 100%;
-    
-    
+
+.fixed img {
+    width: 50px;
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+}
+
+/**---------------------------------------FOOTER--------------------------------------------------*/
+footer {
+    background-image: url(../img/bannerfooter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+
+    a {
+        text-decoration: none;
+    }
+
+    h2 {
+        color: beige;
+    }
+
+    img {
+        float: right;
+        width: 55px;
+        height: 55px;
+        padding: 15px;
+    }
+}
+
+/**--------------------------------Nosotros----------------------------**/
+
+.nosotros {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 399;
+    font-style: normal;
+    background-color: #f5cdc0;
+
+    h2 {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    div {
+        display: flex;
+
+        p {
+            padding: 5%;
+        }
+
+        img {
+            width: 600px;
+        }
+    }
+}
+
+.nuestroscafes {
+    background-color: #f5cdc0;
+
+    h2 {
+        text-align: center;
+    }
+}
+
+.grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(5, 470px);
+    grid-template-rows: repeat(5, 400px);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+    div img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/**--------------------------------Contacto---------------------**/
+
+.contacto {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 399;
+    font-style: normal;
+    background-color: #f5cdc0;
+}
+
+/**-----------------------------------Productos--------------------------------**/
+
+.granos {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 399;
+    font-style: normal;
+    background-color: #f5cdc0;
+
+    h2 {
+        text-align: center;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div img {
+        width: 175px;
+        height: 175px;
+    }
+
+    div a img {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+/**------------------------------------Servicios----------------------**/
+
+.reservas, .catering {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 399;
+    font-style: normal;
+    background-color: #f5cdc0;
+
+    div {
+        display: flex;
+    }
+}
+
+/*!-------------------------MEDIA QUERY--------------------*/
+
+@media (max-width: 650px) {
+    .bienvenida {
+        height: 300px;
+    }
+
+    .bienvenida div p {
+        font-size: 70%;
+    }
 }
