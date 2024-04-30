@@ -159,19 +159,35 @@ footer {
   font-optical-sizing: auto;
   font-weight: 399;
   font-style: normal;
-  background-color: #f5cdc0; }
-  .granos h2 {
-    text-align: center; }
-  .granos .cards {
-    display: flex;
-    flex-wrap: wrap; }
-  .granos div img {
-    width: 175px;
-    height: 175px; }
-  .granos div a img {
-    width: 15px;
-    height: 15px; }
+  background-color: #f5cdc0; 
+}
+.cartita{
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  text-align: center;
+  background-color: whitesmoke;
+  border: 5px #f5cdc0;
+  border-radius: 20px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  border-style: solid;
+} 
+.granos h2{
+  text-align: center;
+}
+.granos div img {
+  width: 175px;
+  height: 175px;
+}
+.granos div a img{
 
+  width: 15px;
+  height: 15px;
+}
 /**------------------------------------Servicios----------------------**/
 .reservas, .catering {
   font-family: "Oswald", sans-serif;
