@@ -167,7 +167,8 @@ justify-content: center;
 
 
 .sucursales {
-background-color: #290505af;
+background-color: rgb(41,5,5);
+background: linear-gradient(180deg, rgba(41,5,5,1) 0%, rgba(165,138,138,1) 33%, rgba(173,147,147,1) 58%, rgba(51,16,16,1) 100%);
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
