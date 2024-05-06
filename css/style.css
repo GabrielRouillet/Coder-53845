@@ -170,10 +170,18 @@ justify-content: center;
 background-color: rgb(41,5,5);
 background: linear-gradient(180deg, rgba(41,5,5,1) 0%, rgba(165,138,138,1) 33%, rgba(173,147,147,1) 58%, rgba(51,16,16,1) 100%);
 display: flex;
-flex-wrap: wrap;
-justify-content: center;
+
+flex-direction: column;
 }
 
+.sucursales h2 {text-align: center;
+    color: white;
+    background-color: black;}
+.sucursales h3 {color: white;}
+.sucursales p{ color: white;}
+.sucursales div {
+    display: flex;
+}
 .sucursales div img{
     height: 600px;
     width: 500px;
@@ -220,8 +228,8 @@ footer h2 {
 
 footer img{
     float: right;
-    width: 55px;
-    height: 55px;
+    width: 65px;
+    height: 65px;
     padding: 15px;
     
 }
