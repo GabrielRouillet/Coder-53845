@@ -188,6 +188,7 @@ flex-direction: column;
 .sucursales h3 {color: white;}
 .sucursales p{ color: white;
 width: 80%;
+font-size: 25px;
 }
 .sucursales .lomas {
     display: flex;
