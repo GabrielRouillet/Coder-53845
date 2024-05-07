@@ -61,11 +61,9 @@ header h1{
 /**---------------------------------------MAIN---------------------------------------------------*/
 
 .bienvenida {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 399;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     font-style: normal;
-    
     background-image: url(../img/bannercafe.jpg);
     background-size: cover ;
     background-repeat: no-repeat;
@@ -141,9 +139,8 @@ justify-content: center;
 }
 
 .productosd {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 399;
+    font-family: "Roboto", sans-serif;
+    font-weight: 550;
     font-style: normal;
     background-image: url(../img/productosdbanner.png);
     padding: 0px 0px 16px 0px;
@@ -171,9 +168,8 @@ justify-content: center;
 
 
 .sucursales {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 399;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-style: normal;
 background-color: #f5cdc0;
 display: flex;
@@ -252,7 +248,8 @@ footer a{
 
 }
 footer h2 {
-    color: beige;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
 }
 
 footer img{
@@ -260,16 +257,15 @@ footer img{
     width: 65px;
     height: 65px;
     padding: 15px;
-    
 }
+
 
 
 /**--------------------------------Nosotros----------------------------**/
 
 .nosotros {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 399;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-style: normal;
     background-color: #f5cdc0;
 }
@@ -294,9 +290,8 @@ footer img{
 
 .nuestroscafes {
     background-color: #f5cdc0 ;
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 399;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-style: normal;
 
 }
@@ -345,9 +340,8 @@ footer img{
 /**--------------------------------Contacto---------------------**/
 
 .contacto {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 399;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-style: normal;
     background-color: #f5cdc0; 
     display: flex;
@@ -375,9 +369,8 @@ footer img{
 
 /**-----------------------------------Productos--------------------------------**/
 .granos {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 399;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-style: normal;
     background-color: #f5cdc0; 
 }
@@ -417,9 +410,8 @@ footer img{
 
 /**------------------------------------Servicios----------------------**/
 .reservas {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 399;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-style: normal;
     background-color: #f5cdc0; 
 }
@@ -429,9 +421,8 @@ footer img{
 }
 
 .catering {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 399;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-style: normal;
     background-color: #f5cdc0; 
 }
