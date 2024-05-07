@@ -109,6 +109,7 @@ header h1{
 
 
 .productosd h2 {
+    font-size: 40px;
 text-align: center;
 color: white;
 background-color: black;
@@ -145,7 +146,8 @@ justify-content: center;
     background-image: url(../img/productosdbanner.png);
     padding: 0px 0px 16px 0px;
 }
-
+.card-body {display: flex;
+        flex-direction: column;} 
 
 
 .background-color {
