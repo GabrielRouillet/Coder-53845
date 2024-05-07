@@ -175,8 +175,7 @@ justify-content: center;
     font-optical-sizing: auto;
     font-weight: 399;
     font-style: normal;
-background-color: rgb(41,5,5);
-background: linear-gradient(180deg, rgba(41,5,5,1) 0%, rgba(165,138,138,1) 33%, rgba(173,147,147,1) 58%, rgba(51,16,16,1) 100%);
+background-color: #f5cdc0;
 display: flex;
 
 flex-direction: column;
@@ -185,8 +184,8 @@ flex-direction: column;
 .sucursales h2 {text-align: center;
     color: white;
     background-color: black;}
-.sucursales h3 {color: white;}
-.sucursales p{ color: white;
+.sucursales h3 {color: rgb(0, 0, 0);}
+.sucursales p{ color: rgb(0, 0, 0);
 width: 80%;
 font-size: 25px;
 }
@@ -310,8 +309,8 @@ footer img{
     display: grid;
     grid-template-columns: repeat(5, 470px);
     grid-template-rows: repeat(5, 400px);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
     }
     
     .div1 { grid-area: 1 / 1 / 3 / 2; }
@@ -336,6 +335,11 @@ footer img{
 
 .grid-galeria h3{
     color: white;
+    position: absolute;
+    padding-bottom: 15px;
+    
+
+
 }
 
 /**--------------------------------Contacto---------------------**/
