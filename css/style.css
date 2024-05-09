@@ -67,7 +67,8 @@ header h1{
     background-image: url(../img/bannercafe.jpg);
     background-size: cover ;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 550px;
+
     display: flex;
     flex-direction: column;
     
