@@ -60,7 +60,6 @@ header img{
     background-size: cover ;
     background-repeat: no-repeat;
     height: 550px;
-
     display: flex;
     flex-direction: column;
     
@@ -118,7 +117,7 @@ justify-content: center;
     
 }
 .card {
-    --bs-card-bg: #f5cdc0d9 !important ;}
+    --bs-card-bg: #daa898db !important ;}
 
 .productosd div img{
     width: 175px;
@@ -152,7 +151,7 @@ justify-content: center;
 
 
 .boton {
-    color: rgb(202, 190, 20);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     background-color: black;
 }
@@ -190,7 +189,7 @@ text-align: center;
     
 }
 .sucursales .lomas div{
-    padding: 0% 5% 5% 15%;
+    padding: 0% 5% 5% 5%;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -202,7 +201,7 @@ align-items: center;
     
 }
 .sucursales .avellaneda div{
-    padding: 0% 5% 5% 15%;
+    padding: 0% 5% 5% 5%;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -211,23 +210,14 @@ align-items: center;
 .sucursales div img{
     height: 600px;
     width: 500px;
-    margin: 50px;
+    margin: 10%;
 }
 .sucursales iframe {
-    width: 75%;
-    height: 60%;
+    width: 80%;
+    height: 40%;
     align-items: center;
     
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -238,7 +228,7 @@ align-items: center;
     width: 50px;
     position: fixed; 
     bottom: 60px;
-    right: 30px;
+    right: 60px;
 }
 
 /**---------------------------------------FOOTER--------------------------------------------------*/
@@ -404,22 +394,12 @@ footer img{
     font-style: normal;
     background-color: #f5cdc0; 
 }
-
-.cartita{
-    width: 300px;
-    height: 300px;
-    margin: 20px;
-    text-align: center;
-    background-color: whitesmoke;
-    border: 5px #f5cdc0;
-    border-radius: 20px;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    display: inline-flex;
+.granos .cards {
+    display: flex;
     flex-wrap: wrap;
-    border-style: solid;
-} 
+    justify-content: center;
+    gap: 16px;
+}
 
 .granos h2{
     text-align: center;
@@ -434,9 +414,21 @@ footer img{
     width: 15px;
     height: 15px;
 }
+.cafeteras {background-color:#f5cdc0;}
+.cafeteras .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+.cafeteras h2 {
+    text-align: center;
 
-
-
+}
+.cafeteras div img{
+    width: 175px;
+    height: 175px;
+}
 
 /**------------------------------------Servicios----------------------**/
 .reservas {
@@ -467,7 +459,28 @@ footer img{
 /*!-------------------------MEDIA QUERY--------------------*/
 
 /* Ajustes para pantallas más pequeñas que tablets */
-@media (max-width: 768px) {
+@media (max-width: 700px){
+    .bienvenida h1{
+        font-size: 40px;}
+    .bienvenida {
+        height: 400px;
+        }
+    .sucursales .lomas img {
+        width: 350px;
+    }
+    .sucursales .avellaneda img {
+        width: 300px;
+    }
+}
+@media (max-width: 420px){
+    .sucursales .lomas img {
+        width: 300px;
+    }
+    .sucursales .avellaneda img {
+        width: 250px;
+    }
+}
+    @media (max-width: 768px) {
     .bienvenida h2 {
         font-size: 40px;
         padding-left: 5%;
@@ -515,20 +528,32 @@ footer img{
     }
 
 }
-@media (max-width: 1440px){
+@media (max-width: 1000px){
     .sucursales {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         flex-wrap: wrap;
+        align-items: center;
     }
 } 
 
-@media (max-width: 1440px){
-    .sucursales .lomas {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
+@media (max-width: 1000px){
+        .sucursales .lomas {
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           
+        }
+    }
+    @media (max-width: 1000px){
+        .sucursales .lomas div p {
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           
+        }
     }
 } 
 @media (max-width: 1440px){
@@ -572,4 +597,4 @@ footer img{
     .grid-galeria {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
     }
-}}}
+}}
