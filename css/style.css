@@ -458,6 +458,9 @@ form {
     flex-direction: column;
     text-align: center;
 }
+
+.serviciosr h2 { padding: 10px;}
+.serviciosr p {padding:10px ;}
 .serviciosr div {
 border-style: solid;
 border-color: #976d6d;
@@ -477,8 +480,10 @@ border-radius: 15px;
     font-weight: 400;
     font-style: normal;
     background-color: #f5cdc0; 
+    padding: 10px;
 }
-
+.catering h2 {padding: 10px;}
+.catering p {padding:10px ;}
 .catering div {
     border-style: solid;
     border-color: #976d6d;
